@@ -41,10 +41,10 @@ cinema_sistemas/
 │  ├─ requisitos.md
 │  └─ regras_negocio.md
 └─ diagrams/
-   ├─ casos_uso.png
-   ├─ classes.png
-   ├─ atividades.png
-   └─ sequencia.png
+   ├─ diagrama_casosUso.md
+   ├─ diagrama_classes.md
+   ├─ diagrama_atividades.md
+   └─ diagrama_sequencia.md
 ```
 
 ---
@@ -56,14 +56,6 @@ python -m src.main
 
 ---
 
-## 📌 Diagramas (obrigatórios)
-Adicionar na pasta `diagrams/`:
-- `casos_uso.png`
-- `classes.png`
-- `atividades.png`
-- `sequencia.png`
-
----
 
 ## 📄 Documentação
 - **Requisitos**: `docs/requisitos.md`
