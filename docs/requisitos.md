@@ -1,8 +1,13 @@
-## Requisitos Funcionais (principais)
+# Levantamento de Requisitos (Principais)
 
-1. Cadastrar cinemas com nome, capacidade e endereço.
-2. Cadastrar filmes com título, duração, gênero, diretor e elenco.
-3. Cadastrar sessões por cinema e filme, com horário de início e fim.
-4. Registrar o público diário de uma sessão.
-5. Consultar totalização de público por sessão, por filme e por cinema.
-6. Consultar informações de elenco, diretores e gêneros dos filmes.
+**R1. Cadastrar cinemas** com nome, capacidade e endereço.
+
+**R2. Cadastrar filmes** com título, duração, gênero, diretor e elenco.
+
+**R3. Cadastrar sessões** vinculando cinema e filme, com horário de início e fim.
+
+**R4. Registrar público diário** de uma sessão.
+
+**R5. Consultar totalizações** de público por sessão, por filme e por cinema.
+
+**R6. Consultar informações do filme** (elenco, diretor e gênero).
