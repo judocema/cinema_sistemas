@@ -1,0 +1,15 @@
+@startuml
+title Diagrama de Atividade — Registrar Público
+
+start
+:Selecionar sessão;
+:Informar data e público;
+:Validar capacidade do cinema;
+if (Público <= capacidade?) then (sim)
+  :Registrar público;
+  :Atualizar totalizações;
+else (não)
+  :Exibir erro;
+endif
+stop
+@enduml

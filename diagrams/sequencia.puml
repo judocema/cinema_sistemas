@@ -1,0 +1,21 @@
+@startuml
+title Diagrama de Sequência — Registro de Público
+
+actor Usuario
+participant "View (CLIView)" as View
+participant "Controller" as Controller
+participant "Service" as Service
+participant "Repository" as Repo
+database "SQLite" as DB
+
+Usuario -> View: informar dados da sessão\n+ público
+View -> Controller: registrar_publico(session_id, data, publico)
+Controller -> Service: registrar_publico(...)
+Service -> Repo: add(session_id, data, publico)
+Repo -> DB: INSERT attendance
+DB --> Repo: ok
+Repo --> Service: id
+Service --> Controller: id
+Controller --> View: confirmação
+View --> Usuario: "Público registrado"
+@enduml
