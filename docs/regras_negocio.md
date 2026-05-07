@@ -1,7 +1,13 @@
-## Regras de Negócio Essenciais
+# Regras de Negócio Essenciais
 
-1. Uma sessão pertence a um único cinema e exibe um único filme.
-2. A duração do filme deve ser respeitada no cálculo do horário de término da sessão.
-3. Deve existir intervalo mínimo de 10 minutos entre sessões no mesmo cinema.
-4. O público registrado para uma sessão não pode ultrapassar a capacidade do cinema.
-5. Uma sessão pode ter registros de público em dias diferentes.
+A seguir estão as regras de negócio mínimas para garantir a coerência do processo.
+
+**RB1.** Cada sessão deve pertencer a **um único cinema** e exibir **um único filme**.
+
+**RB2.** O término da sessão deve respeitar **a duração do filme** (horário de início + duração).
+
+**RB3.** Deve existir **intervalo mínimo de 10 minutos** entre sessões do mesmo cinema.
+
+**RB4.** O público registrado em uma sessão **não pode ultrapassar** a capacidade do cinema.
+
+**RB5.** Uma sessão pode ter **múltiplos registros diários** de público (datas diferentes).
