@@ -1,7 +1,5 @@
 # Regras de Negócio Essenciais
 
-A seguir estão as regras de negócio mínimas para garantir a coerência do processo.
-
 **RB1.** Cada sessão deve pertencer a **um único cinema** e exibir **um único filme**.
 
 **RB2.** O término da sessão deve respeitar **a duração do filme** (horário de início + duração).
@@ -10,4 +8,4 @@ A seguir estão as regras de negócio mínimas para garantir a coerência do pro
 
 **RB4.** O público registrado em uma sessão **não pode ultrapassar** a capacidade do cinema.
 
-**RB5.** Uma sessão pode ter **múltiplos registros diários** de público (datas diferentes).
+**RB5.** Uma sessão pode ter **varios registros diários** de público (datas diferentes).
